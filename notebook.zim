@@ -1,0 +1,12 @@
+[Notebook]
+version=0.4
+name=gitrepo
+interwiki=
+home=Home
+icon=
+document_root=~/Notatki
+shared=True
+endofline=unix
+disable_trash=False
+profile=
+

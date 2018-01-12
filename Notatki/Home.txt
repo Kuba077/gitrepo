@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-12T12:40:13+01:00
+
+====== Home ======
+Created piątek 12 styczeń 2018
+
+
+
+$("selektor").akcja(function(){
+działania;
+});
+
+Metody:
+1. .hide()
+2. .show()
+3. .toggle()
+4. .fadeln()
