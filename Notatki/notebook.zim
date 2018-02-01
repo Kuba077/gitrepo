@@ -1,10 +1,10 @@
 [Notebook]
 version=0.4
-name=Notatki
+name=gitrepo
 interwiki=
 home=Home
 icon=
-document_root=
+document_root=~/Notatki
 shared=True
 endofline=unix
 disable_trash=False
