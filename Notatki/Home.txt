@@ -16,3 +16,19 @@ Metody:
 2. .show()
 3. .toggle()
 4. .fadeln()
+
+Serwer- "komputer" udostępniający usługi
+Jakie zasoby mozna udostepiać?
+udostepniają usługi  /etc/services
+
+1.DNS- port 53 zamiana nazw hostów  na adres IP [[polecenie:ping]]
+2.HTTP- komunikacja w zakresie www
+3.FTP
+4.SSH- port 22
+
+Klient-  komputer korzystający  z usług udostepnianych
+protokól- porozumiewanie sie klienta z serwerem protokoły definiowane są w plikach RFC
+Adres IP - 
+
+====== Lokalny serwer HTTP ======
+python -m

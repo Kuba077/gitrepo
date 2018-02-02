@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-02-02T13:08:29+01:00
+
+====== Protkoły ======
+Created piątek 02 luty 2018
+URI=> URL
+
+http://lo1.sandomierz.pl/news-20180107-1322?lang=pl
+
+http:// - protokól
+lo1.sandomierz.pl - (pełnowymiarowa)nazwa serwera
+[[/ankiety/szukaj]] - zasób na serwerze
+? - poczatek listy argumentów (parametrów )
+words=parnas - parametr w formacie nazwa = wartośc
+& - znak służący rozdzielaniu parametrów
+search= 
+
+https:// = HTTP + SSL
+https://www.google.com/webhp?hl=pl&sa=X&ved=0ahUKEwidgoWXnIfZAhUMkSwKHQD5BGoQPAgD
+[[/searach]]
+?
+client= ubuntu
+&chanel= 
