@@ -32,3 +32,8 @@ Adres IP -
 
 ====== Lokalny serwer HTTP ======
 python -m
+
+
+
+file:///home/kl1ag2/gitrepo/public_html/formularze.html?imie=Kuba&nazwisko=Mazur
+[[file:///home/kl1ag2/gitrepo/public_html/formularze.html?imie=Kuba&nazwisko=Mazur|?imie=Kuba&nazwisko=Mazur]] - początek listy parametrów
