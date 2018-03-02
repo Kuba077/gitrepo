@@ -5,3 +5,13 @@ Creation-Date: 2018-02-26T10:25:54+01:00
 ====== Bootstrap ======
 Created poniedziałek 26 luty 2018
 
+== Grid dzieli rozmiar na 5 kategorii: ==
+Extra small- **xs**
+Small- **sm**
+Medium- **md**
+Large- **lg**
+Extra Large- **xl**
+
+== Spacing ==
+Ustawianie marginesu- m
+wypenienie- p
