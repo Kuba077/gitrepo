@@ -15,3 +15,5 @@ Extra Large- **xl**
 == Spacing ==
 Ustawianie marginesu- m
 wypenienie- p
+
+
