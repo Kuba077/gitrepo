@@ -1,0 +1,31 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-19T09:54:05+01:00
+
+====== Grafika ======
+Created poniedziałek 19 marzec 2018
+
+====== RGB ======
+RGB pokazuje jak pokazać kolor 
+RGB to jeden z modeli przestrzeni barw, opisywanej współrzędnymi RGB.
+Jego nazwa powstała ze złożenia pierwszych liter angielskich nazw barw: R – red (czerwonej), G – green (zielonej) i B – blue (niebieskiej), z których model ten się składa. 
+Z połączenia barw RGB w dowolnych kombinacjach można otrzymać szeroki zakres barw pochodnych, np. z połączenia barwy zielonej i czerwonej powstaje barwa żółta. 
+Do przestrzeni RGB ma zastosowanie synteza addytywna, w której wartości najniższe oznaczają barwę czarną, najwyższe zaś białą.
+Model RGB miał pierwotnie zastosowanie do techniki analogowej, obecnie ma również do cyfrowej.
+
+====== CMYK ======
+
+CMYK jest zestawem czterech podstawowych kolorów farb drukarskich stosowanych powszechnie w druku kolorowym w poligrafii i metodach pokrewnych.
+ C - cyjan (ang. Cyan), M - magenta, (ang. Magenta), Y - żółty (ang. Yellow), K - czarny (ang. blacK). 
+Skrót CMYK powstał jako złożenie pierwszych liter angielskich nazw kolorów prócz koloru czarnego, z którego wzięto literę ostatnią, ponieważ litera B jest skrótem jednego z podstawowych kolorów w analogicznym skrócie RGB. 
+
+====== Grafika rastrowa ======
+
+Grafika rastrowa – prezentacja obrazu za pomocą pionowo-poziomej siatki odpowiednio kolorowanych pikseli na monitorze komputera, drukarce lub innym urządzeniu wyjściowym.
+
+Grafika rastrowa została opatentowana pierwszy raz przez firmę Texas Instruments w latach 70. i aktualnie jest wszechobecną formą przedstawiania obrazu cyfrowego.
+
+Zdjęcie z aparatu cyfrowego jest właśnie grafiką typu rastrowego.
+
+
+
