@@ -1,5 +1,4 @@
-
-  body{
+body{
     background-image: url('photo2.jpeg');
     background-attachment: fixed;
     background-position: center;
@@ -8,4 +7,16 @@
 /*style użytkownika*/
 .mark, mark{
   background-color: rgb(122, 51, 52);
+}
+
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  margin: 15px;
 }
