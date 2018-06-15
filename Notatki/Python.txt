@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-06-15T12:52:51+02:00
+
+====== Python ======
+Created piątek 15 czerwca 2018
+
+SELECT AVG(downolands) FROM fakeapps; 	liczba pobrań
