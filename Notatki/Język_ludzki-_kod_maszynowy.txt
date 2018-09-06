@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-09-06T08:07:49+02:00
+
+====== Język ludzki- kod maszynowy ======
+Created czwartek 06 września 2018
+
+Komputer wykonuje różne zadania poprzez język maszynowy (BINARNY).
+Lata 70 to bardzo ważne lata dla programowania, ponieważ powstał język C (1971), a w 1983 powstał język C++ 
+
+Kompilator  - to program napisany przez twórców danego języka i przekształca kod na kod binarny, sprawdza kod pod względem błędów.
+Linkowanie - robione przez programam (linker) program który łączy dodatkowe biblioteki i kod napisany przez użytkowanika.
+
+Kod źródłowy JAVY i JAVASCRIPT nie jest kompiklowany, a interpretowany. 
+
+Algorytm - skonczony cviąg czynności, przekształcający zbiór danych wejściowych na zbiór danych wyjściowych.
+Algorytmy które wykonują działania mate,matyczne ma danych liczbowych nazywamy algorytmami numerycznymi.
+
+
