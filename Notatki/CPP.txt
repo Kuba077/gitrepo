@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-09-07T13:44:00+02:00
+
+====== CPP ======
+Created piątek 07 września 2018
+
+biblioteka standardowa <iostream>
