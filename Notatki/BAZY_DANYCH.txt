@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-09-24T07:22:00+02:00
+
+====== BAZY DANYCH ======
+Created poniedziałek 24 września 2018
+
+Co powinna zawierac dobra baza danych:
+
+Jeżeli dane się powtarzają, to tracimy miejsce w dysku, pamięci.
+Kolumny w tabelii nie powinny zawierać kolekcji różnych wartości.
+Projektując bazę danych musimy brac pod uwagę normalizację, która polega na bezstratnym procesem organizacji danych w tabeli .
+Atomowość danych - każde pole w bazie przechowuje 1 informację , dzięki czemu możemy łatwo zadawać zapytania.
+Unikalność danych, każdy klient powinien mieć indywidualny identyfikator, którym jest klucz główny.
+
+2 postać normalna polega na tym, że każda kolumna powiina zawierac konkretne dane dotyczące jednej kategorii .
