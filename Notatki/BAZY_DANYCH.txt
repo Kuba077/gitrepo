@@ -13,4 +13,37 @@ Projektując bazę danych musimy brac pod uwagę normalizację, która polega na
 Atomowość danych - każde pole w bazie przechowuje 1 informację , dzięki czemu możemy łatwo zadawać zapytania.
 Unikalność danych, każdy klient powinien mieć indywidualny identyfikator, którym jest klucz główny.
 
-2 postać normalna polega na tym, że każda kolumna powiina zawierac konkretne dane dotyczące jednej kategorii .
+2 postać normalna polega na tym, że każda kolumna powinna zawierać konkretne dane dotyczące jednej kategorii .
+
+====== Constraints ======
+
+UNIQUE - unikalność wartości w kolumnie
+NOT NULL - nie dopuszczenie pustych wartości
+DEFAULT - wartość domyślna, np. "", 10%
+FOREIGN KEY - definicja KLUCZA OBCEGO
+nazwa pola REFERENCES tabela( inne_pole)
+CHECK num1 > num2 - testowanie wartości
+
+ON DLETE CASCADE  -
+Razem z wierszem tabeli nadrzędnej zostają usunięte wszystkie wiersze tabeli podrzędnej, w których wartości klucza obcego wskazują
+na usuwany wiersz (pod warunkiem, że usunięcie tych wierszy jest możliwe bez naruszenia )
+
+
+====== DATA TYPES ======
+
+NULL
+INTEGER
+REAL - liczby zmienno przecinkowe
+TEXT
+BLOB
+
+CHAR(20)'zaghjhoioiw'
+VARCHAR(20)'azauikjhk'
+KODOWANIE = UTF-8
+
+
+====== DATE AND TIME DATATYPE ======
+
+TEXT
+REAL
+INTEGER
