@@ -8,8 +8,8 @@
 def prostokat1(a, b, znak):
     for i in range(a):
         for j in range(b):
-            print(znak, end='')
-        print()
+			print(znak, end='')
+		print()
 
     
 def prostokat2(a, b, znak):
@@ -34,11 +34,15 @@ def choinka2(h, znak):
             print(znak, end='')
         print()
 
-def trojkat(a, h, znak)
-    for i in range(a):
-        for j in range(h):
-            
-    print()
+def trojkat(h, znak)
+    n = (h-1)*2
+    for i in range(h-1, -1, -1):
+        for j in range(n + 1):
+            if j < i or j > n - i:
+                print(" ", end='')
+            else:
+                print(znak, end='')
+	print()
         
 def main(args):
     a = int(input('Wysokość prostokąta: '))
@@ -53,6 +57,8 @@ def main(args):
     choinka1(h, znak)
     print()
     choinka2(h, znak)
+    print()
+    trokat(h, znak)
     print()
     return 0
 
