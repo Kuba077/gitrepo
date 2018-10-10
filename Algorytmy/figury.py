@@ -31,7 +31,7 @@ def choinka1(h, znak):
 def choinka2(h, znak):
     for i in range(h):
         for j in range(h - i):
-            print(znak, end='')
+			print(znak, end='')
         print()
 
 def trojkat(h, znak)
