@@ -15,6 +15,14 @@ Unikalność danych, każdy klient powinien mieć indywidualny identyfikator, kt
 
 2 postać normalna polega na tym, że każda kolumna powinna zawierać konkretne dane dotyczące jednej kategorii .
 
+LEFT JOIN
+IS (NOT) NULL
+
+
+
+
+
+
 ====== Constraints ======
 
 UNIQUE - unikalność wartości w kolumnie
