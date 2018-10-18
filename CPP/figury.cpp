@@ -5,11 +5,20 @@
 
 #include <iostream>
 
-using mainspace std;
+using namespace std;
 
-void prostokat2(int a, int b, char znak) {
-    for (i = 1; )
+void prostokat2(int a, int b, char znak)
+{
+    for (int i = 0; i < a; i++){
+        for (int j = 0; j < b; j++)
+            if (j == 0 || j == b-1 || i == 0 || i == a-1)
+                cout << znak;
+            else
+                cout << " ";
+        cout << endl;
+    }
 }
+
 
 
 
