@@ -33,13 +33,6 @@ void wypelnij(int tab[], int roz) {
 }
 
 
-void drukuj(int tab[], int roz) {
-    for(int i=0; i < roz; i++) {
-        cout << tab[i] << " ";
-    }
-}
-
-
 void wypelnij_los(int tab[], int roz) {
     srand(time(NULL)); // inicjacja generatora liczb pseudolosowych
     for(int i=0; i < roz; i++) {
@@ -49,17 +42,43 @@ void wypelnij_los(int tab[], int roz) {
 }
 
 
+void drukuj(int tab[], int roz) {
+    for(int i=0; i < roz; i++) {
+        cout << tab[i] << " ";
+    }
+}
+
+int min(int tab[], int roz) {
+    int min = tab[0];
+    for(int i=1; i < roz; i++) {
+        if (tab[i] < min)
+            min = tab[i];
+    }
+    return min;
+}
+
+int max(int tab[], int roz) {
+    int max = tab[0];
+    for(int i=1; i < roz; i++) {
+        if (tab[i] > max)
+            max = tab[i];
+    }
+    return max;
+}
 
 int main()
 {
-    int rozmiar = 10;
+    int rozmiar = 50;
     int tab[rozmiar];
     //wypelnij(tab , rozmiar);
 
     wypelnij_los(tab, rozmiar);
 
     drukuj(tab, rozmiar);
+    
+    cout << "Min: " << min(tab, rozmiar) << endl;
 
+    cout << "Max: " << max(tab, rozmiar) << endl;
 
     //minmax1();
     return 0;
