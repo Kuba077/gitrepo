@@ -5,4 +5,6 @@ Creation-Date: 2018-11-26T07:28:32+01:00
 ====== PVE3 ======
 Created poniedziałek 26 listopada 2018
 
+python3 -m venv pve3
 source [[~/pve3/bin/activate]] - aktywowanie środowiska peewee
+pip install peewee
