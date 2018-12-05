@@ -2,26 +2,27 @@
 # -*- coding: utf-8 -*-
 #
 #  potega.py
-#  
-#  Copyright 2018  <>
+#  Obliczanie potęgi liczby naturalnej
 
-def potega_it(a, n):
+def potega_re():
+    if 
+    return 0
+    
+def potega_it(2, 4):
     wynik = 1
     for i in range(n):
         wynik = wynik * a
-        
+        # print(wynik)
     return wynik
-        
-    
 
 
 def main(args):
-    a, n = 0, 1 # wielokrotne przypisania
-    print("Podstawa {} do potegi {} wynosi {}".
-        format(a, n, potega_it(a, n)))
-    potega_it(a, n)
+    a, n = 3, 0  # wielokrotne przypisanie
+    print("Podstawa {} do potęgi {} wynosi {}".
+           format(a, n, potega_it(a, n)))
+    
     return 0
 
 if __name__ == '__main__':
     import sys
-    sys.exit(main(sys.argv))
+sys.exit(main(sys.argv))
