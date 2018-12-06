@@ -4,11 +4,16 @@
 #  potega.py
 #  Obliczanie potęgi liczby naturalnej
 
-def potega_re():
-    if 
-    return 0
-    
-def potega_it(2, 4):
+# 3^4 = 3 * 3 * 3 * 3
+# 3^4 = 3^3 * 3
+# 3^3 = 3^2 * 3
+# a^n = a^(n-1) * a
+def potega_re(a, n):
+    if n == 0:
+        return 1
+    return potega_re(a, n-1) * a
+
+def potega_it(a, n):
     wynik = 1
     for i in range(n):
         wynik = wynik * a
@@ -17,9 +22,9 @@ def potega_it(2, 4):
 
 
 def main(args):
-    a, n = 3, 0  # wielokrotne przypisanie
+    a, n = 3, 4  # wielokrotne przypisanie
     print("Podstawa {} do potęgi {} wynosi {}".
-           format(a, n, potega_it(a, n)))
+           format(a, n, potega_re(a, n)))
     
     return 0
 
