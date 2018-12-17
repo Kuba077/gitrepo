@@ -12,8 +12,15 @@
 </head>
 
 <body>
-    <h1> Witaj w quizie! </h1>
-    <p> Sam to zrobiłem.</p>
+    <h1> Quiz - pytania </h1>
+    <ol>
+    {% for p in pytania %}
+        <li>
+            {{p.pytanie}}
+        </li>
+    {% endfor %}
+    </ol>
+    
 </body>
 
 </html>
