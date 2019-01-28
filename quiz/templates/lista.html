@@ -1,26 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<!--
-   index.html
-   
--->
-
-<head>
-<meta charset="utf-8" />
-<title>Aplikacja QUIZ</title>
-<meta name="generator" content="Geany 1.32" />
-</head>
-
-<body>
-    <h1> Quiz - pytania </h1>
-    <ol>
+{% extends "szablon.html" %}
+{% block tytul %}Quiz – Lista pytań{% endblock %}
+{% block h1 %}Quiz –  pytania{% endblock %}
+{% block tresc %}
+<ol>
     {% for p in pytania %}
         <li>
-            {{p.pytanie}}
+            {{ p.pytanie }}    
         </li>
     {% endfor %}
-    </ol>
-    
-</body>
-
-</html>
+</ol>
+{% endblock %}

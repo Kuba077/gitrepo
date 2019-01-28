@@ -1,0 +1,17 @@
+{% extends "szablon.html" %}
+{% block tytul %}Quiz – dodaj pytanie{% endblock %}
+{% block h1 %}Quiz – dodaj pytanie{% endblock %}
+{% block tresc %}
+    <form method="POST">
+    {{ form.csrf_token }}
+    {{ form.pytanie.label }}<br>
+    {{ form.pytanie.pytanie(class="form-control") }}<br>
+
+    {% for o in form.odpowiedzi %}
+        pass
+    {% endfor %}
+    
+
+    <input type="submit" value="Zapisz pytanie">
+    </form>
+{% endblock %}
