@@ -36,6 +36,15 @@ def quiz():
     pytania = Pytanie.select().join(Odpowiedz).distinct()
     return render_template('quiz.html', pytania=pytania)
 
+def flash_errors(form):
+    """Odczytanie wszystkich błędów formularza i przygotowanie komunikatów"""
+    for field, errors in form.errors.items():
+        for error in errors:
+            if type(error) is list:
+                error = error[0]
+            flash("Błąd: {}. Pole: {}".format(
+                error,
+                getattr(form, field).label.text))
 
 @app.route("/dodaj", methods=['GET', 'POST'])
 def dodaj():
@@ -45,11 +54,40 @@ def dodaj():
     
     if form.validate_on_submit():
         print (form.data)
-        pass
+        p = Pytanie(pytanie=form.pytanie.data, kategoria=form.kategoria.data)
+        p.save()
+        for o in form.odpowiedzi.data:
+            odp = Odpowiedz(odpowiedz=o['odpowiedz'],
+                            pytanie=p.id,
+                            odpok=int(o['odpok']))
+            odp.save()
+        flash("Dodano pytanie: {}".format(form.pytanie.data))
+        return redirect(url_for('lista'))
+        
     elif request.method == 'POST':
         flash.errors(form)
     
     return render_template('dodaj.html', form=form)
+   
+def get_or_404(pid):
+    try:
+        p = Pytanie.get_by_id(pid)
+        return p
+    except Pytanie.DoesNotExist:
+        abort(404)
+
+
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
+    
+@app.route("/usun/<int:pid>", methods=['GET', 'POST'])
+def usun():
+    """Usuwanie pytań i odpowiedzi"""    
+    p = get or 404(pid)
+    if request.method = 'POST':
+        pass
+    return render_template("pytanie_usun.html", pytanie=p)
 
 def main(args):
     return 0
