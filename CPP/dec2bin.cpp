@@ -1,39 +1,65 @@
 /*
  * dec2bin.cpp
+ * 
  */
 
-
 #include <iostream>
-using namespace std ;
+#include <cmath>
 
-int dec2bin(int l)
-{
-    int lbin = 0;
-    int i = 1;
+using namespace std;
+
+int cyfry[16] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 65, 66, 67, 68, 69, 70}
+
+int dec2any(int liczba, int podstawa, int tab[]) {
+    int i=0;
+    do {
+        tab[i] = liczba % podstawa;
+        liczba = liczba / podstawa;
+        i++;
+    } while (liczba != 0);
+
+    return i-1;
+}
+
+void any2dec(int tab[]) {
+    int podstawa = 0;
+    do {
+        cout << "Podstawa <2;9>: ";
+        cin >> podstawa;
+    } while (podstawa < 2 || podstawa > 9);
     
-    while (l > 0)
-    {
-        lbin += (l%2)*i;
-        l = l/2;
-        i *= 10;
+    int ile = 0;
+    cout << "Ile cyfr? "; cin >> ile;
+    for(int i = 0; i < ile; i++)
+        do {
+            cout << "Podaj cyfrę (0-" << podstawa-1 << "): ";
+            cin >> tab[i];
+        } while (tab[i]<0 || tab[i]>podstawa-1);
+    // konwersja na system dziesiętny
+    int liczba10 = 0;
+    for (int i=0; i < ile; i++) {
+        // kolejna cyfra z tabeli mnożona przez odpowiednią potęgę podstawy;
+        // pow(liczba, potega)
+        liczba10 += tab[i]*pow(podstawa, ile-1-i);
     }
-    return lbin;
+    cout << "Wynik: " << liczba10;
 }
 
-int dectobin(int l)
-{
-    int i = 0;
+int main(int argc, char **argv){
     int tab[8];
-    
-    while (l
-}
-
-int main(int argc, char **argv)
-{
-    int l = 0;
-	cout << "Podaj dowolną liczbę dziesiętną: ";
-    cin >> l;
-    
-    cout << "liczba binarna: " << dec2bin(l) << endl;
-	return 0;
+    int liczba, podstawa;
+    cout << "Podaj liczbę i podstawę systemu docelowego: ";
+    cin >> liczba >> podstawa;
+    int i = dec2any(liczba, podstawa, tab);
+    cout << "Wynik: ";
+    while (i >= 0) {
+        if (podstawa > 9)
+            cout << cyfry[tab[i]];
+        else
+            cout << tab[i];
+        i--;
+    }
+    cout << endl;
+    any2dec(tab);
+    return 0;
 }
