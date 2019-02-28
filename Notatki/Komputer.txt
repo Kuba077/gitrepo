@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-02-28T07:24:29+01:00
+
+====== Komputer ======
+Created czwartek 28 lutego 2019
+
+Komputer nie ruszy bez pamięci ROM.
+
+Rodzaje pamięci:
+- RAM
+- ROM
+- pamięć podręczna (Cash)
+
+Pamięć masowa jest pamięcią trwałą w których można przechowywać dane przez dłuższy czas.
+
+SSD nie jest dyskiem mechanicznym, jest to pamięć oparta na pół przewodnikach.
+
+3 rodzaje szyny danych:
+- taktowanie (im wiecej MHz tym szybszy)
