@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-03-14T07:30:46+01:00
+
+====== DOS ======
+Created czwartek 14 marca 2019
+
+Sytstem 1 zadaniowy, można wykonać tylko 1 zadanie w danym czasie, prez to jest łatwy, przejrzysty oraz wydajny.
+
+Zazwyczaj w każdym systemie operacyjnym jest: menadżer pamięci, planista, wielozadaniowosc
+Kermel mo

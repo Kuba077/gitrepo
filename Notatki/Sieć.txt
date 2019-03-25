@@ -1,0 +1,46 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-03-15T13:59:17+01:00
+
+====== Sieć ======
+Created piątek 15 marca 2019
+
+Ethernet, skrętka + RJ45
+Prepustowość 100 Mb/s
+Prędkość jest zmienna
+
+Adres IPv4 (adres który identyfikuje komputer)
+192.168.x.x
+10.x.x.x
+172.16.x.x
+
+LAN - local area network
+komputer (desktop, laptop(eth, wifi), smartfony, drukarki)
+
+SWITH (przełączniki) - interfejsy wewnętrzne
+ROUTER (SWITH + ROUTER) -
+interfejs wewnętrzny + interfejs zewnętrzny (DSL, WAN )
+łączy IP
+
+Protokół sieciowy- język komunikowania się pomiędzy różnymi rzeczami(komputerami, aplikacjami)
+
+HTTP;
+HTTPS;
+
+Ile serwerów HTTP może działać na 1 maszynie ?
+- Dowolna ilość
+
+UDP
+bezpołączeniowy
+
+TCP
+połączeniowy
+
+LAN, 192.168.0.5, 34.12.45.89
+Serwer: 123.43.54.67
+
+Nagłówek IP: 34.12.45.89, 123.43.54.67
+NAT
+
+192.168.3.0/24
+192.168.3.1 

@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-03-07T07:25:38+01:00
+
+====== Systemy ======
+Created czwartek 07 marca 2019
+
+===== Linux =====
+Tablica typu FAT ma ograniczenia, ponieważ pozwala na stworzenie 4 partycji.
+Nowszą tablicą partycji jest GTT.
+NBR- master boot record - zapisana jest informacja z której partycji ma być uruchamiany system.
+
+Root /			C:\\
+/ devIsda1
+ext4
+NTFS
+Montowanie - polega na dołączenia jakiegoś zasobu do struktury pliku.
+Linux ma dwa znaczenia: jako jądro sysytemowe lub jako system operacyjny.
+System jest darmowy, ponieważ liczy sie formuła open-source, system jest otwarty w postaci dostępu do kodu, można go dystrybutować bez licencji.
+
+Bootleader - 
+
+Powłka - komand wywoływana skrótem CMD w windows
+Power Shell- powłowka o dużych możliwościach, ale bardzo skomplikowane.
+Grupy systemowe- pozwalają dawać użytkownikowi pewne uprawnienia.
+Toolchain - zestaw podstawowego oprogramowania do tworzenia oprogramowania(kompilator, biblioteki)
+
