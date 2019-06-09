@@ -77,6 +77,13 @@ def get_or_404(pid):
         abort(404)
 
 
+
+  elif request.method == 'POST':
+    pass
+    # TODO Show errrors
+    # flash_errors(form)
+return render_template('dodaj_klase.html', form=form)
+
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template('404.html'), 404
@@ -85,7 +92,7 @@ def page_not_found(e):
 def usun():
     """Usuwanie pytań i odpowiedzi"""    
     p = get or 404(pid)
-    if request.method = 'POST':
+    if request.method == 'POST':
         pass
     return render_template("pytanie_usun.html", pytanie=p)
 
